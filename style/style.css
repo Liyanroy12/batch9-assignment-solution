@@ -323,11 +323,11 @@ h1 {
 }
 
 .new-best-offer img {
-    width: 300.84px;
-    height: 250.84px;
+    width: 250.84px;
+    height: 200.84px;
     justify-content: center;
-    margin-left: 60px;
-    margin-top: 10;
+    margin-left: 22px;
+    margin-top: 25px;
 }
 
 .new-best-offer p {
@@ -358,6 +358,22 @@ h1 {
     Height: 140px;
     margin-left: 10px;
     margin-top: 0px;
+}
+
+.new-best-offer-manage {
+    width: 350px;
+    height: 300px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.new-best-offer-second {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 22px;
 }
 
 /* Protfolio style */
@@ -472,4 +488,62 @@ h1 {
     background: rgb(255, 0, 0);
     margin-top: 0;
     border: none;
+}
+
+/* footer style */
+
+.footer-container {
+    width: 1320px;
+    height: 609px;
+    background-color: rgb(7, 2, 17);
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.contect{
+    display: flex;
+    color: #ffff;
+}
+.contect .img-2{
+    height: 25px;
+    width: 25px;
+    margin-top: 15px;
+}
+.footer-fitst-section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    width: 90%;
+    margin: 0 auto;;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-fitst-section{
+    font-size: 18px;
+}
+.hr{
+    width: 90%;
+    margin: 0 auto;
+}
+.hr-2{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.socal-icons{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-end-text{
+    color: #ffff;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
 }
