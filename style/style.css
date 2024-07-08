@@ -9,7 +9,7 @@ body {
     height: 600px;
     margin: 0 auto;
     margin-top: 20px;
-    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("/images/Banner\ Image.png");
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("../images/Banner\ Image.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
@@ -107,7 +107,7 @@ h1 {
     margin-top: 120px;
     display: flex;
     /* linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), */
-    background-image: url("/images/Vectorrr.png");
+    background-image: url("../images/Vectorrr.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
