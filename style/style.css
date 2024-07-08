@@ -285,20 +285,191 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
-.girl-container .girld-img{
+
+.girl-container .girld-img {
     height: 500px;
     width: 500px;
 }
-.girl-container{
+
+.girl-container {
     width: 429px;
     height: 443px;
     position: relative;
     left: 19%;
     top: 0%;
 }
-.discount{
+
+.discount {
     position: relative;
     left: 55%;
     bottom: 50%;
     z-index: 1;
+}
+
+/* new best offer section style is hear */
+.new-best-offer-container {
+    width: 1320px;
+    height: 463px;
+    margin: 0px auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-best-offer {
+    width: 393px;
+    height: 255px;
+}
+
+.new-best-offer img {
+    width: 300.84px;
+    height: 250.84px;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 10;
+}
+
+.new-best-offer p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.new-best-offer h2 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.new-best-offer .new-year {
+    Width: 140px;
+    Height: 140px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+/* Protfolio style */
+.protfolio-container {
+    width: 1320px;
+    height: 1163px;
+    margin: 0px auto;
+    margin-top: 120px;
+}
+
+.profolio-content h5 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.profolio-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.profolio-content h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.protfolio-items {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.item {
+    width: 424px;
+    height: 450px;
+}
+
+.item img {
+    height: 100%;
+    width: 100%;
+}
+
+/* newslater style is hear */
+.newslater-container {
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newslater-content {
+    text-align: center;
+}
+
+.newslater-content h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+.newslater-content .newslatter-para {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+
+.newslatter-input {
+    display: flex;
+}
+
+.newslatter-input input {
+    width: 500px;
+    height: 69px;
+    border-radius: 50px 0px 0px 50px;
+    background: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.newslatter-input button {
+    width: 210px;
+    height: 72px;
+    font-size: 28px;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    margin-top: 0;
+    border: none;
 }
